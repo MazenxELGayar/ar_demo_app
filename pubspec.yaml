@@ -1,4 +1,4 @@
-name: flexo_nexus
+name: ar_demo
 description: "A new Flutter project."
 
 publish_to: "none"
@@ -88,7 +88,4 @@ flutter:
     - assets/images/
     - assets/svgs/
     - assets/lotties/
-    - assets/fonts/cairo/cairo_bold.ttf
-    - assets/fonts/cairo/cairo_regular.ttf
-    - assets/fonts/tajwal/tajawal_bold.ttf
-    - assets/fonts/tajwal/tajawal_regular.ttf
+    - assets/glbs/
