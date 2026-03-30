@@ -2,33 +2,10 @@
     "version": "0.2.0",
     "configurations": [
       {
-        "name": "Flexo Nexus",
+        "name": "Demo",
         "type": "dart",
         "request": "launch",
-        "program": "lib/main.dart",
-        "args": ["--flavor", "flexonexus"]
-      },
-      {
-        "name": "Food Health",
-        "type": "dart",
-        "request": "launch",
-        "program": "lib/main.dart",
-        "args": ["--flavor", "foodhealth"]
-      },
-      {
-        "name": "Restaurant",
-        "type": "dart",
-        "request": "launch",
-        "program": "lib/main.dart",
-        "args": ["--flavor", "restaurant"]
-      },
-      {
-        "name": "NDS",
-        "type": "dart",
-        "request": "launch",
-        "program": "lib/main.dart",
-        "args": ["--flavor", "nds"]
+        "program": "lib/main.dart"
       }
-
     ]
   }  

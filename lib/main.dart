@@ -9,7 +9,7 @@ import 'package:ar_flutter_plugin/managers/ar_object_manager.dart';
 import 'package:ar_flutter_plugin/managers/ar_session_manager.dart';
 import 'package:ar_flutter_plugin/models/ar_anchor.dart';
 import 'package:ar_flutter_plugin/models/ar_node.dart';
-import 'package:vector_math/vector_math_64.dart';
+import 'package:vector_math/vector_math_64.dart' hide Colors;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -85,12 +85,6 @@ class _ARHomePageState extends State<ARHomePage> {
     );
 
     _arObjectManager!.onInitialize();
-
-    _arSessionManager!.onError = (error) {
-      if (mounted) {
-        setState(() => _statusMessage = 'AR error: $error');
-      }
-    };
 
     setState(() => _statusMessage = 'Move your camera over a flat surface.');
   }
