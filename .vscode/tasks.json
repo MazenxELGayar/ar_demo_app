@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "i18n: Auto Translate",
+        "type": "shell",
+        "command": "fvm flutter pub run flutter_i18n_translator --auto-translate --auto_apply-translations --key-case camel",
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": [],
+        "presentation": {
+          "reveal": "always",
+          "panel": "shared"
+        }
+      },
+      {
+        "label": "Asset → Dart",
+        "type": "shell",
+        "command": "dart run asset_to_dart",
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": [],
+        "presentation": {
+          "reveal": "always",
+          "panel": "shared"
+        }
+      }
+    ]
+  }
+  

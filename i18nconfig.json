@@ -1,0 +1,39 @@
+{
+  "defaultLocale": "en-US",
+  "locales": [
+    "en-US",
+    "ar-EG",
+    "fr-FR",
+    "es-ES",
+    "de-DE",
+    "it-IT",
+    "ru-RU",
+    "ja-JP",
+    "ko-KR",
+    "pt-PT",
+    "hi-IN",
+    "tr-TR",
+    "ps-AF",
+    "ur-PK"
+  ],
+  "localePath": "i18n",
+  "generatedPath": "lib/generated",
+  "ltr": [
+    "en-US",
+    "fr-FR",
+    "es-ES",
+    "de-DE",
+    "it-IT",
+    "ru-RU",
+    "ja-JP",
+    "ko-KR",
+    "pt-PT",
+    "hi-IN",
+    "tr-TR"
+  ],
+  "rtl": [
+    "ar-EG",
+    "ps-AF",
+    "ur-PK"
+  ]
+}
